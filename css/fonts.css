@@ -1,4 +1,14 @@
 /* cyrillic-ext */
+
+@font-face {
+  font-family: 'Cream Cake';
+  src: url('../fontes/Florilane\ Cardillac.ttf');
+}
+
+@font-face {
+  font-family: 'Florilane Cardillac';
+  src: url('../fontes/Florilane\ Cardillac.ttf');
+}
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;

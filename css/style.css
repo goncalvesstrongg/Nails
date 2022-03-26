@@ -1,12 +1,15 @@
+
+
 :root{
     --persian-red: #ce3232;
-    --dark: #f19307;
+    --dark: #da7706;
     --grey: #686464d0;
     --lightGrey: #f9f9f9ea;
     --transition: all 0.5s ease;
     --Poppins: 'Poppins', sans-serif;
     --Mont: 'Montserrat', sans-serif;
-    --titulo: 'Cream Cake', sans-serif;
+    --Cream: 'Cream Cake', sans-serif;
+    --Florilane: 'Florilane Cardillac', sans-serif;
 }
 
 *{
@@ -76,6 +79,11 @@ h1, h2, h3, h4, h5, h6, p{
     
     background: #080808;
 }
+
+.navbar > .nav-brand-toggler > .navbar-brand{
+    font-family: var(--Cream);
+    font-size: 1.4rem;
+}
 .navbar-nav{
     padding-left: 0;
 }
@@ -86,8 +94,9 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 1.3rem 0;
 }
 .navbar-brand{
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 700;
+    
 }
 .navbar-brand span{
     color: var(--persian-red);
@@ -96,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p{
     border: none;
     background: transparent;
     font-size: 1.5rem;
-    color:#f19307 ;
+    color:#f1950b ;
     cursor: pointer;
     transition: var(--transition);
 }
@@ -140,7 +149,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/capa-2.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/capa-5.png) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -268,7 +277,7 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 .menu-wrapper{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .menu-item{
     position: relative;
