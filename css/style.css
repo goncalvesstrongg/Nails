@@ -15,7 +15,7 @@
 *{
     box-sizing: border-box;
 }
-body{background:rgba(228, 192, 146, 0.568);
+body{background:#f1c1a98f;
     font-family: var(--Mont);
     
 }
@@ -191,6 +191,11 @@ h1, h2, h3, h4, h5, h6, p{
     overflow-x: hidden;
 }
 
+/* profi */
+.profi{
+    overflow-x: hidden;
+}
+
 /* chef */
 .chef{
     background: var(--lightGrey);
@@ -205,19 +210,23 @@ h1, h2, h3, h4, h5, h6, p{
     position: relative;
     overflow: hidden;
     cursor: pointer;
+   
+    
+    
 }
 .chef-item-img img{
     transition: var(--transition);
+
 }
 .chef-item-img img:hover{
-    transform: scale(1.2);
+    transform: scale();
 }
 .chef-overlay{
     position: absolute;
     background: rgba(0, 0, 0, 0.8);
     bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -282,6 +291,7 @@ h1, h2, h3, h4, h5, h6, p{
 .menu-item{
     position: relative;
     cursor: pointer;
+    margin: 0.6em 0.3em;
 }
 .menu-overlay{
     height: 130px;
@@ -323,7 +333,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* testimonial */
 .testimonial{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/testemunho.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rodape.png) center/cover no-repeat fixed;
     overflow: hidden;
 }
 .testimonial .title{
@@ -398,7 +408,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 0.6;
 }
 .footer-item:nth-child(3){
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/footer-img.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/foto-1.jpeg) center/cover no-repeat;
     color: #fff;
     padding: 2rem;
     border-radius: 1.3rem;
@@ -533,7 +543,13 @@ h1, h2, h3, h4, h5, h6, p{
         grid-gap: 3rem;
         align-items: center;
     }
-
+    
+    .profi{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 3rem;
+        align-items: center;
+    }
     .chef-wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
