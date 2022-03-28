@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/capa-5.png) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/capa-7.webp) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -190,6 +190,10 @@ h1, h2, h3, h4, h5, h6, p{
 .about{
     overflow-x: hidden;
 }
+
+
+/* história de Sabrina */
+
 
 /* profi */
 .profi{
@@ -286,7 +290,7 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: center;
 }
 .menu-wrapper{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .menu-item{
     position: relative;
@@ -408,7 +412,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 0.6;
 }
 .footer-item:nth-child(3){
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/foto-1.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/foto-4.jpeg) center/cover fixed;
     color: #fff;
     padding: 2rem;
     border-radius: 1.3rem;
