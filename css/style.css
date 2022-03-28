@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6, p{
     opacity: 0.6;
 }
 .footer-item:nth-child(3){
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/foto-4.jpeg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../images/foto-4.jpeg) center/cover no-repeat;
     color: #fff;
     padding: 2rem;
     border-radius: 1.3rem;
