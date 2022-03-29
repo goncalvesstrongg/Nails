@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* testimonial */
 .testimonial{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rodape.png) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/rodape1.jpg) center/cover no-repeat fixed;
     overflow: hidden;
 }
 .testimonial .title{
